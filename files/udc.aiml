@@ -16,8 +16,8 @@
   </category>
   
     <category>
-    <pattern>MY NAME IS " "</pattern>
-    <template>Hello</template>
+    <pattern>MY NAME IS * *</pattern>
+    <template>Hello <star index="1"/></template>
   </category>
   
     <category>
