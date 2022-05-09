@@ -6,8 +6,15 @@
   </category>
   
   <category>
-    <pattern>HELLO BOT</pattern>
-    <template>Hello World.</template>
+    <pattern>Hi</pattern>
+    <template>
+        <random>
+        <li>Hello</li>
+        <li>Hi there</li>
+        <li>Good to see you!</li>
+        <li>Whaaasssaaaaaa!</li>
+    </random>
+    </template>
   </category>
   
     <category>
