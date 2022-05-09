@@ -51,6 +51,14 @@
   </category>
   
   <category>
+      <pattern>I ATE *</pattern>
+      <template>
+          That sounds yummy.
+          <think><set name="food"><star/></set></think>
+      </template>
+  </category>
+  
+  <category>
       <pattern>ROLL A DICE</pattern>
       <template>
           <random>
