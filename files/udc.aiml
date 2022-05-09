@@ -21,8 +21,13 @@
   </category>
   
     <category>
-    <pattern>Say *</pattern>
+    <pattern>SAY *</pattern>
     <template><star index="1"/>.</template>
+  </category>
+  
+    <category>
+    <pattern>_ COLOR *</pattern>
+    <template>Are you American?</template>
   </category>
   
 </aiml>
