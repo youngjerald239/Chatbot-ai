@@ -18,6 +18,23 @@
   </category>
   
   <category>
+      <pattern>TEST</pattern>
+      <template>
+          <random>
+              <li>Jimmy</li>
+              <li>Kimberly</li>
+              <li>Jackson</li>
+          </random> ate a <random>
+              
+              <li>apple</li>
+              <li>pizza</li>
+              <li>cheese burger</li>
+              <li>pear</li>
+          </random>
+      </template>
+  </category>
+  
+  <category>
       <pattern>ROLL A DICE</pattern>
       <template>
           <random>
