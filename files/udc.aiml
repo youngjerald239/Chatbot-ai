@@ -17,6 +17,20 @@
     </template>
   </category>
   
+  <category>
+      <pattern>ROLL A DICE</pattern>
+      <template>
+          <random>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+          </random>
+      </template>
+  </category>
+  
     <category>
     <pattern>HELLO *</pattern>
     <template>Hello User!.</template>
