@@ -29,20 +29,25 @@
     <pattern>_ COLOR *</pattern>
     <template>Are you American?</template>
   </category>
-  
+
     <category>
     <pattern>MY NAME IS * *</pattern>
-    <template>Hello <star/>. How are you Mr <star index="2"/>?</template>
+    <template>Hello <set name="firstname"><star/></set> <set name="surname"><star index="2"/></set>.</template>
   </category>
   
     <category>
-    <pattern>MY NAME IS *</pattern>
-    <template>Hello <set name="firstname"><star/></set>.</template>
-  </category>
-  
-    <category>
-    <pattern>WHAT IS MY NAME</pattern>
+    <pattern>WHAT IS MY FIRST NAME</pattern>
     <template>Your name is <get name="firstname"/>.</template>
+  </category>
+  
+   <category>
+    <pattern>WHAT IS MY SURNAME</pattern>
+    <template>Your name is <get name="surname"/>.</template>
+  </category>
+  
+   <category>
+    <pattern>WHAT IS MY FULL NAME</pattern>
+    <template>Your name is <get name="firstname"/> <get name="surname"/>.</template>
   </category>
   
 </aiml>
