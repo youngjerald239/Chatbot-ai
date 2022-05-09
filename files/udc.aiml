@@ -25,12 +25,28 @@
               <li>Kimberly</li>
               <li>Jackson</li>
           </random> ate a <random>
-              
               <li>apple</li>
               <li>pizza</li>
               <li>cheese burger</li>
               <li>pear</li>
           </random>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>PERSON</pattern>
+      <template>
+          <think>
+          <set name="person">
+          <random>
+              <li>Jimmy</li>
+              <li>Kimberly</li>
+              <li>Jackson</li>
+          </random>
+          </set>
+          </think>
+          
+          The person I chose was <get name="person"/>.
       </template>
   </category>
   
