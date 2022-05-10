@@ -20,7 +20,15 @@
   <category>
       <pattern>ASK ME ANOTHER QUESTION</pattern>
       <template>
-          Do you like pizza?
+          What sort of music do you like?
+      </template>
+  </category>
+  
+  <category>
+      <that>_ MUSIC *</that>
+      <pattern>_</pattern>
+      <template>
+          Cool, I like techno.
       </template>
   </category>
   
