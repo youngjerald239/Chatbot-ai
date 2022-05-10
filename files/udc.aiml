@@ -13,9 +13,25 @@
   </category>
   
   <category>
+      <pattern>ASK ME ANOTHER QUESTION</pattern>
+      <template>
+          Do you drive a car?
+      </template>
+  </category>
+  
+  <category>
+      <that>DO YOU LIKE THE BEACH</that>
       <pattern>YES</pattern>
       <template>
           Me too. It's nice to relax on the sand
+      </template>
+  </category>
+  
+  <category>
+      <that>DO YOU DRIVE A CAR</that>
+      <pattern>YES</pattern>
+      <template>
+          Cool, what sort of car do you have?
       </template>
   </category>
   
