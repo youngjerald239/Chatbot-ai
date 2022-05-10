@@ -6,6 +6,27 @@
   </category>
   
   <category>
+      <pattern>ASK ME A QUESTION</pattern>
+      <template>
+          Do you like the beach?
+      </template>
+  </category>
+  
+  <category>
+      <pattern>YES</pattern>
+      <template>
+          Me too. It's nice to relax on the sand
+      </template>
+  </category>
+  
+  <category>
+      <pattern>NO</pattern>
+      <template>
+          Aw that's a shame. I love the sand on the sea.
+      </template>
+  </category>
+  
+  <category>
     <pattern>Hi</pattern>
     <template>
         <random>
@@ -56,6 +77,11 @@
           That sounds yummy.
           <think><set name="food"><star/></set></think>
       </template>
+  </category>
+  
+  <category>
+      <pattern>WHAT FOOD DO I LIKE</pattern>
+      <template>Well earlier, you ate <get name="food"/>, so I assume you like that.</template>
   </category>
   
   <category>
