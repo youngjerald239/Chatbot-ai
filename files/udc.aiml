@@ -15,15 +15,15 @@
   <category>
       <pattern>ASK ME ANOTHER QUESTION</pattern>
       <template>
-          Do you drive a car?
+          Do you like pizza?
       </template>
   </category>
   
   <category>
-      <that>DO YOU LIKE THE BEACH</that>
+      <that>DO YOU LIKE *</that>
       <pattern>YES</pattern>
       <template>
-          Me too. It's nice to relax on the sand
+          That sounds good, what do you like best about it?
       </template>
   </category>
   
