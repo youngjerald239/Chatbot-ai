@@ -8,7 +8,12 @@
   <category>
       <pattern>ASK ME A QUESTION</pattern>
       <template>
-          Do you like the beach?
+          Do you like <random>
+              <li>pizza</li>
+              <li>cars</li>
+              <li>the beach</li>
+              <li>video games</li>
+          </random>?
       </template>
   </category>
   
@@ -23,7 +28,7 @@
       <that>DO YOU LIKE *</that>
       <pattern>YES</pattern>
       <template>
-          That sounds good, what do you like best about it?
+          That sounds good, what do you like best about <thatstar/>?
       </template>
   </category>
   
