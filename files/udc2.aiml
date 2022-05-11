@@ -45,4 +45,9 @@
         <pattern>_ Actual *</pattern>
         <template><srai><star index="1"/> <star index="2"/></srai></template>
     </category>
+    
+    <category>
+        <pattern>WOT *</pattern>
+        <template><srai>What <star/></srai></template>
+    </category>
 </aiml>
