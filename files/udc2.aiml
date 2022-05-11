@@ -55,4 +55,9 @@
         <pattern>WOT *</pattern>
         <template><srai>What <star/></srai></template>
     </category>
+    
+    <category>
+        <pattern>_ LOL</pattern>
+        <template>You sound like you're in a good mood.<sr/></template>
+    </category>
 </aiml>
