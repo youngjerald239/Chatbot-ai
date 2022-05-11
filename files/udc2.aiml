@@ -7,6 +7,16 @@
     </category>
     
     <category>
+        <pattern>WHO IS YOUR FATHER</pattern>
+        <template>I was created by Jerald!</template>
+    </category>
+    
+    <category>
+        <pattern>_ DAD</pattern>
+        <template><srai><star/> FATHER</srai></template>
+    </category>
+    
+    <category>
         <pattern>HI</pattern>
         <template><srai>HELLO</srai></template>
     </category>
