@@ -37,6 +37,11 @@
     </category>
     
     <category>
+        <pattern>_ PLEASE</pattern>
+        <template>You are very polite.<srai><star/></srai></template>
+    </category>
+    
+    <category>
         <pattern>_ Actual *</pattern>
         <template><srai><star index="1"/> <star index="2"/></srai></template>
     </category>
