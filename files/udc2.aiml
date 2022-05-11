@@ -10,4 +10,19 @@
         <pattern>HI</pattern>
         <template><srai>HELLO</srai></template>
     </category>
+    
+    <category>
+        <pattern>HOWDY</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+    
+    <category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>My name is Chattbot!</template>
+    </category>
+    
+    <category>
+        <pattern>CAN YOU TELL ME YOUR NAME</pattern>
+        <template><srai>what is your name</srai></template>
+    </category>
 </aiml>
