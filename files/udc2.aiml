@@ -22,7 +22,12 @@
     </category>
     
     <category>
-        <pattern>CAN YOU TELL ME YOUR NAME</pattern>
-        <template><srai>what is your name</srai></template>
+        <pattern>WHAT IS YOUR AGE</pattern>
+        <template>I am 2 years old.</template>
+    </category>
+    
+    <category>
+        <pattern>CAN YOU TELL ME YOUR *</pattern>
+        <template><srai>what is your <star/></srai></template>
     </category>
 </aiml>
