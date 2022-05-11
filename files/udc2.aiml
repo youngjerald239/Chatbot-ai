@@ -33,7 +33,7 @@
     
     <category>
         <pattern>WHAT IS YOUR AGE</pattern>
-        <template>I am 2 years old.</template>
+        <template>I am <bot name="age"/> years old.</template>
     </category>
     
     <category>
