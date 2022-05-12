@@ -17,7 +17,7 @@
         <template>
             <condition name="firstname">
                 <li value="unknown">Pfft! How should I know, you haven't told me your name!lol</li>
-            <li>Your name is <get name="firstname"/>.</li>
+            <li>Your name is <get name="firstname"/>. <srai>my name is <get name="firstname"/></srai></li>
             </condition>
         </template>
     </category>
