@@ -2,7 +2,8 @@
 <aiml version="2.0">
 	
 	<category>
-	    <pattern>*</pattern>
-	    <template>I have no answer for that.</template>
+	    <pattern>WHAT IS YOUR FAVORITE</pattern>
+	    <template>My favorite what?</template>
     </category>
+    
 </aiml>
