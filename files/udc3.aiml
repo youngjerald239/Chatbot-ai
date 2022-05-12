@@ -11,4 +11,28 @@
 	    </condition>
 	    </template>
     </category>
+    
+    <category>
+        <pattern>WHAT IS MY NAME</pattern>
+        <template>
+            Your name is <get name="firstname"/>.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>IS * A DAY OF THE WEEK</pattern>
+        <template>
+            <think><set name="testday"><star/></set></think>
+            <condition name="testday">
+                <li value="Sunday">Yes</li>
+                <li value="Monday">Yes</li>
+                <li value="Tuesday">Yes</li>
+                <li value="Wednesday">Yes</li>
+                <li value="Thursday">Yes</li>
+                <li value="Friday">Yes</li>
+                <li value="Saturday">Yes</li>
+                <li>Oh na, you trippin bruh, fa real.</li>
+            </condition>
+        </template>
+    </category>
 </aiml>
