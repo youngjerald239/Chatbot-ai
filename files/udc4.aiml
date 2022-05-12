@@ -6,4 +6,18 @@
 	    <template>My favorite what?</template>
     </category>
     
+    <category>
+        <pattern>SHALL WE TALK ABOUT COUNTRIES</pattern>
+        <template>Sure, that sounds like a good subject.
+        <set name="topic">COUNTRIES</set>
+        </template>
+    </category>
+    
+    <topic name="COUNTRIES">
+        <category>
+            <pattern>WHAT IS YOUR FAVORITE</pattern>
+            <template>I like Japan even though I'm from the U.S.</template>
+        </category>
+    </topic>
+    
 </aiml>
