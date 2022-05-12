@@ -6,7 +6,8 @@
 	    <template>Hi <set name="firstname"><star/></set>.
 	    <condition name="firstname">
 	        <li value="Jerald"> You have the same name as my creator!</li>
-	        <li value="Craig"> Are you friends with Day Day?! Or Smokey?!</li>
+	        <li value="Craig"> Are you friends with Day-Day?! Or Smokey?!</li>
+	        <li> Yo, <get name="firstname"/> Whassssaaaaaaaa!!!!</li>
 	    </condition>
 	    </template>
     </category>
