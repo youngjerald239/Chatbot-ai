@@ -12,6 +12,12 @@
     </category>
     
     <category>
+        <that>DO I LIKE WHAT</that>
+        <pattern>*</pattern>
+        <template><srai>Do you like <star/></srai></template>
+    </category>
+    
+    <category>
         <pattern>I LIKE *</pattern>
         <template>
             <think><set name="it"><star/></set></think>
