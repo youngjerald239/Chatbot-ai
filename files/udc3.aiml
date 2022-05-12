@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
+    
+    <category>
+        <pattern>DO YOU LIKE IT</pattern>
+        <template>
+          <condition name="it">
+            <li value="unknown">Do I like what?</li>
+            <li><srai>Do you like <get name="it"/></srai></li>
+          </condition>
+        </template>
+    </category>
 	
 	<category>
 	    <pattern>MY NAME IS *</pattern>
