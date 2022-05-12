@@ -10,6 +10,14 @@
           </condition>
         </template>
     </category>
+    
+    <category>
+        <pattern>I LIKE *</pattern>
+        <template>
+            <think><set name="it"><star/></set></think>
+            What do you like best about it?
+        </template>
+    </category>
 	
 	<category>
 	    <pattern>MY NAME IS *</pattern>
