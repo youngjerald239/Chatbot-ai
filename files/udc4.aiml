@@ -15,6 +15,16 @@
     
     <topic name="COUNTRIES">
         <category>
+            <pattern>*</pattern>
+            <template>
+               <random>
+                   <li> Have you been abroad?</li>
+                   <li>What countries would you like to visit?</li>
+                </random>
+            </template>
+        </category>
+        
+        <category>
             <pattern>WHAT IS YOUR FAVORITE</pattern>
             <template>I like Japan even though I'm from the U.S.</template>
         </category>
