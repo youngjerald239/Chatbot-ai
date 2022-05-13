@@ -6,6 +6,9 @@
 	    <template>
 	        <think><set name="input">iT Is COLD outSide toDay. i tHINk it mAy rain.</set></think>
 	        <formal><get name="input"/></formal>
+	        <uppercase><get name="input"/></uppercase>
+	        <lowercase><get name="input"/></lowercase>
+	        <explode><get name="input"/></explode>
 	    </template>
     </category>
     
