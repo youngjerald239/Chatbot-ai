@@ -5,7 +5,7 @@
 	    <pattern>TEST</pattern>
 	    <template>
 	        <think><set name="input">iT Is COLD outSide toDay. i tHINk it mAy rain.</set></think>
-	        <get name="input"/>
+	        <lowercase><get name="input"/></lowercase>
 	    </template>
     </category>
     
