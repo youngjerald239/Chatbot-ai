@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>TEST</pattern>
+	    <template>
+	        <think><set name="input">iT Is COLD outSide toDay. i tHINk it mAy rain.</set></think>
+	        <get name="input"/>
+	    </template>
+    </category>
+    
+</aiml>
