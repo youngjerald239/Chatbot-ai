@@ -27,8 +27,8 @@
         <template>
          <think><set name="imp"><star/></set></think>
          <condition name="imp">
-             <li value="YES">Cool, I knew you were awesome!!</li>
-             <li value="NO">Aww, Not cool bro!</li>
+             <li value="YES"><think><set name="topic"></set></think>Cool, I knew you were awesome!!</li>
+             <li value="NO"><think><set name="topic"></set></think>Aww, Not cool bro!</li>
              <li>Please enter YES or NO.</li>
          </condition>
         </template>
