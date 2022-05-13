@@ -15,7 +15,7 @@
  <category>
      <pattern>MY NAME IS *</pattern>
      <template>
-         Hi <formal><star/></formal>
+         Hi there <formal><star/></formal>
      </template>
  </category>
     
