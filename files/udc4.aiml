@@ -23,13 +23,14 @@
     <topic name="chatbots">
         
     <category>
+        <pattern>_</pattern>
+        <template><think><set name="inp"><star/></set></think>Cool, I like you too!
+        </template>
+    </category>
+        
+    <category>
         <pattern>NO</pattern>
         <template>Aww, I'm sad now!</template>
-    </category>
-    
-    <category>
-        <pattern>YES</pattern>
-        <template>Cool, I like you too!</template>
     </category>
     
     <category>
