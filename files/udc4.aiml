@@ -7,13 +7,14 @@
     </category>
     
     <category>
-        <pattern>SHALL WE TALK ABOUT COUNTRIES</pattern>
+        <pattern>LETS TALK ABOUT *</pattern>
         <template>Sure, that sounds like a good subject.
-        <think><set name="topic">COUNTRIES</set></think>
+        <think><set name="topic"><star/></set></think>
         </template>
     </category>
     
     <topic name="COUNTRIES">
+        
         <category>
             <pattern>*</pattern>
             <template>
@@ -27,6 +28,24 @@
         <category>
             <pattern>WHAT IS YOUR FAVORITE</pattern>
             <template>I like Japan even though I'm from the U.S.</template>
+        </category>
+    </topic>
+    
+    <topic name="VIDEOGAMES">
+        
+        <category>
+            <pattern>*</pattern>
+            <template>
+               <random>
+                   <li> Do you have a favorite game?</li>
+                   <li>Have you ever played a Rpg?</li>
+                </random>
+            </template>
+        </category>
+        
+        <category>
+            <pattern>WHAT IS YOUR FAVORITE</pattern>
+            <template>I like mostly Rpgs like my creator.</template>
         </category>
     </topic>
     
