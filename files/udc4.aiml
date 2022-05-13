@@ -9,7 +9,7 @@
     <category>
         <pattern>SHALL WE TALK ABOUT COUNTRIES</pattern>
         <template>Sure, that sounds like a good subject.
-        <set name="topic">COUNTRIES</set>
+        <think><set name="topic">COUNTRIES</set></think>
         </template>
     </category>
     
