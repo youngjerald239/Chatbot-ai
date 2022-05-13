@@ -13,6 +13,31 @@
         </template>
     </category>
     
+    <category>
+        <pattern>ASK ME A QUESTION</pattern>
+        <template>Do you like chatbots?
+        <think><set name="topic">CHATBOTS</set></think>
+        </template>
+    </category>
+    
+    <topic name="chatbots">
+        
+    <category>
+        <pattern>NO</pattern>
+        <template>Aww, I'm sad now!</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <template>Cool, I like you too!</template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>Please enter YES or NO</template>
+    </category>
+    </topic>
+    
     <topic name="COUNTRIES">
         
         <category>
