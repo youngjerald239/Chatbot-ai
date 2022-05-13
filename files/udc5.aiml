@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	
-	<category>
-	    <pattern>TEST</pattern>
-	    <template>
-	        <think><set name="input">iT Is COLD outSide toDay. i tHINk it mAy rain.</set></think>
-	        <formal><get name="input"/></formal>
-	        <uppercase><get name="input"/></uppercase>
-	        <lowercase><get name="input"/></lowercase>
-	        <explode><get name="input"/></explode>
-	    </template>
-    </category>
+	<!--<category>-->
+	<!--    <pattern>TEST</pattern>-->
+	<!--    <template>-->
+	<!--        <think><set name="input">iT Is COLD outSide toDay. i tHINk it mAy rain.</set></think>-->
+	<!--        <formal><get name="input"/></formal>-->
+	<!--        <uppercase><get name="input"/></uppercase>-->
+	<!--        <lowercase><get name="input"/></lowercase>-->
+	<!--        <explode><get name="input"/></explode>-->
+	<!--    </template>-->
+ <!--   </category>-->
+ 
+ <category>
+     <pattern>MY NAME IS *</pattern>
+     <template>
+         Hi <formal><star/></formal>
+     </template>
+ </category>
     
 </aiml>
