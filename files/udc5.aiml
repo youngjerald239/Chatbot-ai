@@ -22,7 +22,7 @@
  <category>
      <pattern>SPELL *</pattern>
      <template>
-         <explode><star/></explode>
+         <uppercase><explode><star/></explode></uppercase>
      </template>
  </category>
     
