@@ -18,5 +18,12 @@
          Hi there <formal><star/></formal>
      </template>
  </category>
+ 
+ <category>
+     <pattern>SPELL *</pattern>
+     <template>
+         <explode><star/></explode>
+     </template>
+ </category>
     
 </aiml>
