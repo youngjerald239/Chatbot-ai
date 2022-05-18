@@ -7,5 +7,12 @@
 	        That's great to hear!
 	    </template>
     </category>
+    
+    <category>
+	    <pattern>WHAT AM I</pattern>
+	    <template>
+	        You told me you were happy.
+	    </template>
+    </category>
 	
 </aiml>
